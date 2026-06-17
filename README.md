@@ -39,6 +39,9 @@ Pastikan pin data sensor terhubung dengan benar ke pin GPIO mikrokontroler ESP32
                                                    v
                                        [ Database Google Sheets ]
 
+
+--- 
+
 ## 📂 Struktur Berkas Proyek
 
 * **`sensor_suhulux.ino`** Berkas kode utama (*firmware*) ESP32 yang menangani inisialisasi sensor pembaca parameter suhu dan lux, manajemen pembuatan akses poin WiFi portal, penataan kueri tautan URL data, serta pengeksekusian metode komunikasi HTTP GET ke server.
@@ -76,3 +79,5 @@ Pastikan pin data sensor terhubung dengan benar ke pin GPIO mikrokontroler ESP32
 4. Masukkan nama SSID dan Password Wi-Fi lokal yang memiliki akses internet di area lab Anda, lalu klik **Save**.
 5. Board ESP32 Anda akan melakukan *restart* secara otomatis untuk menyambungkan diri ke internet. 
 6. Buka **Serial Monitor** pada kecepatan baud `115200` untuk memantau log pembacaan suhu dan lux secara lokal, serta melihat balasan sukses *"Sukses Mendarat di Google Sheets!"* dari server Google setiap 5 menit!
+
+--- 
