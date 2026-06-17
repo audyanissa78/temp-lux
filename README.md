@@ -38,7 +38,7 @@ Pastikan pin data sensor terhubung dengan benar ke pin GPIO mikrokontroler ESP32
                                                    |
                                                    v
                                        [ Database Google Sheets ]
-
+'''
 
 --- 
 
